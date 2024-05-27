@@ -1,0 +1,22 @@
+.campo-texto {
+    margin: 24px 0;/*Para cima e para baixo 24px, para direita e esquerda 0px*/
+}
+
+.campo-texto label {
+    display: block;/*para quebrar a linha, não ficar do lado do  input*/
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.campo-texto input {
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width:100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box ;/*quando escapa para fora da pagina, não está considerando o 24px do padding, soma com os 100%*/
+/*O box-sizing ajuda a ter 100% levando em consideração margem, padding, tudo*/
+
+}
